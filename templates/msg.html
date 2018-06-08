@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户注册消息</title>
+    <style>
+        a{
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+  <h3>您好,{{ username }}</h3>
+  <h4>请先<a href="{{ active_url }}">激活</a>你的账号</h4>
+ <h5>或者复制连接去浏览器请求： {{ active_url }}</h5>
+</body>
+</html>
